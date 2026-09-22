@@ -1,0 +1,87 @@
+# TODO: this is a starting template built from what's already known about you — fill in every
+# [bracketed] placeholder with your real details (institution, dates, advisor, etc.)
+cv:
+  name: Ruoyu "[Your Last Name]"
+  label: Graduate Researcher in Physics — Photonics & Neuroscience
+  email: your.email@example.com # TODO
+  location: "[Your City, State]" # TODO
+  image: ""
+  summary: >
+    Graduate physics researcher working at the intersection of photonics and neuroscience,
+    now pursuing an industry data science role. Experience spans nanophotonic device design
+    and simulation (stimulated Brillouin scattering in silicon waveguides) and EEG-based
+    cognitive neuroscience experiments on numerosity perception.
+
+  social_networks:
+    - network: GitHub
+      username: your-github-username # TODO
+    - network: LinkedIn
+      username: your-linkedin-username # TODO
+
+  address:
+    street: ""
+    city: "[Your City]" # TODO
+    region: "[Your State/Region]" # TODO
+    postalCode: ""
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: "[Your University]" # TODO
+        location: "[City, State]" # TODO
+        url: ""
+        area: Physics
+        studyType: PhD
+        start_date: 2021 # TODO
+        end_date: "Present"
+        score: ""
+        courses: ""
+        highlights:
+          - Research on stimulated Brillouin scattering (SBS) in silicon waveguides
+          - EEG research on numerosity perception and visual feature processing
+
+    Experience:
+      - company: "[Your Lab/Department Name]" # TODO
+        position: Graduate Research Assistant — Photonics
+        location: "[City, State]" # TODO
+        start_date: 2021 # TODO
+        end_date: "Present"
+        summary: Nanophotonic device design and analysis for stimulated Brillouin scattering (SBS) in silicon waveguides.
+        highlights:
+          - Developed theoretical formalism for acousto-optic coupling in silicon waveguides
+          - Designed and nanofabricated SBS-enhancing waveguide structures
+          - Built COMSOL simulations of coupled optical/acoustic modes to guide device design
+
+      - company: "[Your Lab/Department Name]" # TODO
+        position: Graduate Researcher — Cognitive Neuroscience (EEG)
+        location: "[City, State]" # TODO
+        start_date: "[Year]" # TODO
+        end_date: "Present"
+        summary: EEG experiments on numerosity perception and visual feature processing.
+        highlights:
+          - Designed controlled EEG experiments (e.g. color-coherence and depth-cue manipulations of numerosity)
+          - Built MATLAB/PsychoPy stimulus-generation pipelines
+          - Analyzed behavioral and EEG signal data; authored empirical papers
+
+    Skills:
+      - name: Programming & Data
+        level: ""
+        icon: fa-solid fa-code
+        keywords: "Python, MATLAB, COMSOL, signal processing, statistical modeling, experimental design"
+
+      - name: Physics / Photonics
+        level: ""
+        icon: fa-solid fa-hashtag
+        keywords: "Stimulated Brillouin scattering, silicon photonics, nanofabrication, finite-element simulation"
+
+      - name: Neuroscience
+        level: ""
+        icon: fa-solid fa-brain
+        keywords: "EEG, cognitive neuroscience, numerosity perception, PsychoPy"
+
+    # TODO: Add a Publications section once you've decided which papers to list (or let the
+    # auto-generated /publications/ page from _bibliography/papers.bib serve that role instead —
+    # in which case you can drop this whole Publications block from the CV to avoid duplicating it).
+
+    # TODO: Optionally add Awards, Certificates, or Languages sections following the same pattern
+    # as Education/Experience above (see the al-folio docs for the full schema).
